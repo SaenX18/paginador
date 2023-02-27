@@ -1,22 +1,4 @@
-// jPaginate Plugin for jQuery
-// by Angel Grablev for Enavu Web Development network (enavu.com)
-// Dual license under MIT and GPL :) enjoy
-/*
 
-To use simply call .paginate() on the element you wish like so:
-$("#content").jPaginate(); 
-
-you can specify the following options:
-items = number of items to have per page on pagination
-next = the text you want to have inside the text button
-previous = the text you want in the previous button
-active = the class you want the active paginaiton link to have
-pagination_class = the class of the pagination element that is being generated for you to style
-minimize = minimizing will limit the overall number of elements in the pagination links
-nav_items = when minimize is set to true you can specify how many items to show
-cookies = if you want to use cookies to remember which page the user is on, true by default
-
-*/
 (function($){
     $.fn.jPaginate = function(options) {
         var defaults = {
@@ -261,24 +243,3 @@ cookies = if you want to use cookies to remember which page the user is on, true
 		}
 	};
 })(jQuery);
-/*
-     FILE ARCHIVED ON 00:22:33 Jan 23, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 22:46:56 Mar 31, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots.policy: 0.19
-  esindex: 0.023
-  LoadShardBlock: 191.518 (3)
-  RedisCDXSource: 105.643
-  captures_list: 315.423
-  load_resource: 79.036
-  PetaboxLoader3.datanode: 51.218 (4)
-  CDXLines.iter: 13.571 (3)
-  exclusion.robots: 0.204
-  PetaboxLoader3.resolve: 64.801 (2)
-*/
