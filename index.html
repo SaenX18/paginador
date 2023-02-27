@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPaginate Samples con Jquery 1.4.2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/css/jpaginate.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+    <h2>Jpaginate Samples</h2>
+    </div>
+<h3>Usando una tabla normal</h3>    
+    <table class="table table-hover table-bordered">
+<thead>
+    <th>Numero de transacción</th>
+    <th>Dispersión</th>
+    <th>estatus</th>
+    <th>Núm. Autorización</th>
+    <th>Fecha</th>
+    <th>Monto</th>
+    <th>Acciones</th>
+</thead>
+
+<tbody id="example-1">
+    <tr>        <td>1</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>2</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>3</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>4</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>5</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>6</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>7</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>8</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>9</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>10</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>11</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>  
+        <tr>        <td>12</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>   
+        <tr>        <td>13</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr> 
+        <tr>        <td>14</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>   
+        <tr>        <td>15</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>  
+        <tr>        <td>16</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>  
+        <tr>        <td>17</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>18</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>19</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>20</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>21</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>22</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>23</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>24</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>25</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+
+        <tr>        <td>26</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>27</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>28</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>29</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>30</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>31</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>32</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>33</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>34</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+        <tr>        <td>35</td>        <td>5</td>        <td>Dispersado</td>        <td>156156189</td>        <td>22/10/1987</td>        <td>$1,000.00</td>        <td>22</td>    </tr>
+</tbody>
+</table>
+<div id="paginator1"></div>
+
+<br>
+<br>
+<h3>Usando un grupo de divs</h3> 
+<div id="example-2">
+    <div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Card title 1</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+    </div>
+    <div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Card title 2</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+    </div>
+    <div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Card title 3</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+    </div>
+    <div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Card title 4</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+    </div>
+    <div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Card title 5</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+    </div>
+    <div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Card title 6</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+    </div>
+    <div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Card title 7</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+    </div>                        
+</div>
+<br/>
+<div id="paginator2"></div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script language="JavaScript" type="text/javascript" src="Assets/js/jquery1.4.2.js"></script>
+<script language="JavaScript" type="text/javascript" src="Assets/js/jpaginate.js"></script>
+<script>
+$(document).ready(function()
+{
+    var parametros = {
+            items: 5,
+            namecookies:"tabla",
+            next: "Siguiente",
+            previous: "Anterior",
+            inicial: "Primero",
+            final: "Último",
+            minimize: true,
+            tablecontent:"example-1",
+            basenumerador:"paginator1",
+        };
+    $("#example-1").jPaginate(parametros);   
+    
+    $("#example-2").jPaginate({
+        items: 3,
+            namecookies:"cards",
+            next: "Siguiente",
+            previous: "Anterior",
+            inicial: "Primero",
+            final: "Último",
+            pagination_class: "paginationred",
+            minimize: true,
+            tablecontent:"example-2",
+            basenumerador:"paginator2",
+            ocultarinicialfinal:true,
+    });
+});
+</script>
+</body>
+</html>
